@@ -4,9 +4,21 @@
   <groupId>com.mkyong.core.utils</groupId>
   <artifactId>dateUtils</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT1</version>
+  <version>1.0</version>
   <name>dateUtils</name>
   <url>http://www.google.com</url>
+<distributionManagement>
+		<repository>
+				<id>releases</id>
+				<name>Internal Releases</name>
+				<url>https://maven.pkg.github.com/keyurm11/dateUtils</url>
+			</repository>
+		<!-- <snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+		</snapshotRepository> -->
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
