@@ -7,17 +7,19 @@
   <version>1.0</version>
   <name>dateUtils</name>
   <url>http://www.google.com</url>
+<properties>
+  <sonar.projectKey>keyurm11_dateUtils</sonar.projectKey>
+  <sonar.organization>keyurm11</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>134b30c22aebf55331ba9b31377f029bb9044fa6</sonar.login>
+</properties>
+
 <distributionManagement>
 		<repository>
 				<id>releases</id>
 				<name>Internal Releases</name>
 				<url>https://maven.pkg.github.com/keyurm11/dateUtils</url>
 			</repository>
-		<!-- <snapshotRepository>
-			<id>snapshots</id>
-			<name>Internal Snapshots</name>
-			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
-		</snapshotRepository> -->
 </distributionManagement>
   <dependencies>
     <dependency>
